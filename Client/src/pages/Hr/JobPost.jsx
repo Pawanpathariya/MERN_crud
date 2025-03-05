@@ -3,7 +3,6 @@ import axios from "axios";
 import BASE_URL from "../../confiq"
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast } from 'react-toastify';
-import { set } from "mongoose";
 const JobPost = () => {
     const id=localStorage.getItem('id');
     const [jobTitle, setJobTitle] = useState('');
