@@ -1,2 +1,2 @@
-const BASE_URL="https://mern-crud-g2nx.onrender.com";
+const BASE_URL="https://localhost:8080";
 export default BASE_URL;
